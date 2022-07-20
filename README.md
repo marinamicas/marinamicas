@@ -1,12 +1,9 @@
-### Olá mundo! 
-print("Eu sou a Marina Micas")
-
-  ##
+## Olá mundo! 
+### print("Eu sou a Marina Micas")
   
 <div align="center">
   <a href="https://github.com/marinamicas">
   <img height="150em" src="https://github-readme-stats.vercel.app/api?username=marinamicas&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
-  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marinamicas&layout=default&langs_count=9&theme=dark"/>
 </div>
 
 <div style="display: inline_block"><br>
