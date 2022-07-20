@@ -1,4 +1,4 @@
-<div style="background: #000;border-radius:15px;">
+<div style="background: #000;border-radius:15px;color: #fff;">
 
   <h2>Olá mundo!</h2>
   
