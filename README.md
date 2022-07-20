@@ -1,10 +1,10 @@
-<div style="background: #000;border-radius:15px;color: #fff;">
+<div style="background-color: #000000;border-radius:15px;color: #ffffff;">
   <h2>Olá mundo!</h2>  
   <p>print("Eu sou a Marina Micas")</p>
   <div align="center">
     <a href="https://github.com/marinamicas">
       <img height="150em" src="https://github-readme-stats.vercel.app/api?username=marinamicas&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
-      <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marinamicas&layout=compact&langs_count=7&theme=dark"/>
+      <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marinamicas&layout=compact&langs_count=7&theme=dark&show=javascript,python,css,sass,jupyter"/>
     </a>
   </div>
   <div style="display: inline_block"><br>
