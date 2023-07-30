@@ -1,5 +1,10 @@
 .category_1 {grid-area: category_1;}
-.title_1 {grid-area: title_1;margin-bottom: 25px;}
+.title_1 {grid-area: title_1;}
+@media only screen and (min-width: 770px) {
+    .title_1 {
+      margin-bottom: 25px;
+    }
+}
 .card_1-1 {grid-area: card_1-1;}
 .card_1-2 {grid-area: card_1-2;}
 .card_1-3 {grid-area: card_1-3;}
