@@ -9,9 +9,7 @@
 <a href="https://www.linkedin.com/in/marinamicas/" target="_blank"><img src="imagens/contatos/contato_linkedIn.png"></a>
 <br><br>
 
-<img src="imagens/amostra_portfolio.png" alt="Amostra do portfólio com: logomarca bhaarat sobre cozinha indiana, vetor de uma fotografia de mulher, letra sobre informática para musicar, processos e tarefas UX.">
-<a href="https://www.instagram.com/bhaaratrestauranteindiano/" target="_blank">Instagram da logo bhaarat de cozinha indiana</a><br>
-<a href="https://www.linkedin.com/company/bhaarat-restaurante-indiano/" target="_blank">LinkedIn da logo bhaarat de cozinha indiana</a><br> 
+<img src="imagens/amostra_portfolio.png" alt="Amostra do portfólio com: logomarca bhaarat sobre cozinha indiana, vetor de uma fotografia de mulher, letra sobre informática para musicar, processos e tarefas UX."> 
 <a href="https://marinamicas.github.io/marinamicas/" target="_blank">Acesse o meu portfólio completo</a>
 <br><br>
 
