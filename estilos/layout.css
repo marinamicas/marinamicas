@@ -1,0 +1,91 @@
+.category_1 {grid-area: category_1;}
+.title_1 {grid-area: title_1;}
+.card_1-1 {grid-area: card_1-1;}
+.card_1-2 {grid-area: card_1-2;}
+.card_1-3 {grid-area: card_1-3;}
+
+.category_2 {grid-area: category_2;}
+.title_2 {grid-area: title_2;}
+.card_2-1 {grid-area: card_2-1;}
+.card_2-2 {grid-area: card_2-2;}
+.card_2-3 {grid-area: card_2-3;}
+.card_2-4 {grid-area: card_2-4;}
+.card_2-5 {grid-area: card_2-5;}
+
+.layout {
+    display: grid;
+    margin: 20px;
+    grid-template-areas:
+        "category_1"
+        "category_2"
+    ;
+    row-gap: 30px;
+    width: max-content;
+    justify-self: center;
+}
+
+.category_1 {
+    display: grid;
+    grid-template-areas:
+        "title_1 title_1 title_1"
+        "card_1-1 card_1-2 card_1-3"
+    ;
+    column-gap: 30px;
+}
+
+@media only screen and (max-width: 770px) {
+    .category_1 {
+        grid-template-areas:
+            "title_1 title_1"
+            "card_1-1 card_1-2" 
+            "card_1-3 ."
+        ;
+        row-gap: 30px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .category_1 {
+        grid-template-areas:
+            "title_1"
+            "card_1-1"
+            "card_1-2" 
+            "card_1-3"
+        ;
+    }
+}
+
+.category_2 {
+    display: grid;
+    grid-template-areas:
+        "title_2 title_2 title_2"
+        "card_2-1 card_2-2 card_2-3"
+        "card_2-4 card_2-5 ."
+    ;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+@media only screen and (max-width: 770px) {
+    .category_2 {
+        grid-template-areas:
+            "title_2 title_2"
+            "card_2-1 card_2-2" 
+            "card_2-3 card_2-4"
+            "card_2-5 ."
+        ;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .category_2 {
+        grid-template-areas:
+            "title_2"
+            "card_2-1"
+            "card_2-2" 
+            "card_2-3"
+            "card_2-4"
+            "card_2-5"
+        ;
+    }
+}

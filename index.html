@@ -1,36 +1,172 @@
 <!DOCTYPE html>
-<html lang="pt-br" style="background-color: black;">
-<head>
-<meta charset="utf-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Meu portfólio | Marina Micas</title>
-</head>
-<body style="padding:30px;color: #FFF;">
-  
-  <h2>Olá mundo!</h2>
-  
-  <p>print("Eu sou a Marina Micas")</p>
-  
-  <div align="center">
-    <a href="https://github.com/marinamicas"><img height="150em" style="width: 100%;" src="https://github-readme-stats.vercel.app/api?username=marinamicas&show_icons=true&theme=dark&include_all_commits=true&count_private=true"></a>
-  </div>
-  
-  <div style="display: inline_block">
-    <br>
-    <img align="center" alt="Micas-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-    <img align="center" alt="Micas-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-    <img align="center" alt="Micas-SASS" height="30" width="40" src="https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg">
-    <img align="center" alt="Micas-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"> 
-  </div> 
-    
-  <div><hr style="margin:20px 0"></div> 
-    
-  <div> 
-    <a href = "mailto:marinamicas@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-    <a href="https://www.linkedin.com/in/marinamicas/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-  </div>
-  
-  <img align="center" style="width: 100%;" alt="Micas-Commit-Animation" src="https://raw.githubusercontent.com/marinamicas/marinamicas/output/github-contribution-grid-snake.svg">
-</body>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Meu portfólio | Marina Micas</title>
+    <link rel="stylesheet" href="estilos/geral.css">
+    <link rel="stylesheet" href="estilos/layout.css">
+    <link rel="stylesheet" href="estilos/card.css">
+  </head>
+  <body>
+    <h1><img src="imagens/titulos/titulo_portfolio.png" alt="Portfólio"></h1>
+
+    <div class="layout">
+
+      <div class="category_1">
+        <h2 class="title_1">Artigos</h2>
+
+        <article class="card card_1-1">
+          <img
+            class="card__background"
+            src="imagens/cards/artigo_processoDesign.png"
+            alt="Processos e tarefas de design"
+            width="100%"
+          />
+          <div class="card__content | flow">
+            <div class="card__content--container | flow">
+              <h2 class="card__title">Processo de Design</h2>
+              <p class="card__description">
+                Minha experiência no <a href="https://sheisacreative.com.br/curso/bootcampinho-ui-ux-design" target="_blank">Bootcampinho de UI/UX</a> me fez aprender de forma acelerada e organizada muitas técnicas de UX e UI design e uma delas foi esse tema do meu primeiro estudo de caso: O Processo de Design.
+              </p>
+            </div>
+            <a href="https://medium.com/@marinamicas/processo-de-design-em-um-estudo-de-caso-de-ux-user-experience-1c71c5be9dbc" class="card__button" target="_blank">Saiba mais</a>
+          </div>
+        </article>
+
+        <article class="card card_1-2">
+          <img
+            class="card__background"
+            src="imagens/cards/artigo_jogoDiagonal.png"
+            alt="Protótipo Analógico para a criação do Jogo das Diagonais à Aprendizagem Metacognitiva com Arquitetura de Game Inteligente"
+            width="100%"
+          />
+          <div class="card__content | flow">
+            <div class="card__content--container | flow">
+              <h2 class="card__title">Jogo das Diagonais</h2>
+              <p class="card__description">
+                O objetivo principal do artigo é propor um modelo para criar games inteligentes com conteúdos reais em várias áreas de conhecimento. Criando conexões entre teorias e conceitos em um aprendizado natural dentro de um ambiente lúdico.
+              </p>
+            </div>
+            <a href="https://www.sbgames.org/sbgames2018/files/papers/ArtesDesignShort/187081.pdf" class="card__button" target="_blank">Saiba mais</a>
+          </div>
+        </article>
+
+        <article class="card card_1-3">
+          <img
+            class="card__background"
+            src="imagens/cards/artigo_iconesInteligentes.png"
+            alt="Utilizando Ícones Inteligentes para Estabelecer Estratégias na Aprendizagem"
+            width="100%"
+          />
+          <div class="card__content | flow">
+            <div class="card__content--container | flow">
+              <h2 class="card__title">Ícones inteligentes</h2>
+              <p class="card__description">
+                A descrição deste artigo remete a importância de criar uma opção de exibição para ícones inteligentes dos nossos arquivos digitais, tanto como meio organizador quanto centralizador de conteúdos para facilitar o processo da aprendizagem.
+              </p>
+            </div>
+            <a href="http://revistas.hcte.ufrj.br/index.php/RevistaSH/article/view/213" class="card__button" target="_blank">Saiba mais</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="category_2">
+        <h2 class="title_2">Desenhos digitais</h2>
+
+        <article class="card card_2-1">
+          <img
+            class="card__background"
+            src="imagens/cards/desenhoDigital_ACriacaoDosJogos.png"
+            alt="A criação de Adão de Michelangelo e sua adaptação em A criação dos Jogos"
+            width="100%"
+          />
+          <div class="card__content | flow">
+            <div class="card__content--container | flow">
+              <h2 class="card__title">A criação dos Jogos</h2>
+              <p class="card__description">
+                A arte foi inspirada na pintura 'A criação de Adão' de Michelangelo, unindo a esse formato 2 personagens de jogos: Lara Croft e Pitfall. E um modelo tridimensional, sendo este Deus, para contextualizar essa FanArte.
+              </p>
+            </div>
+            <a href="https://drive.google.com/file/d/1xYWCVvqa0glrFXWmI1EEP0wT9vXTT_qd/view?usp=sharing" class="card__button" target="_blank">Saiba mais</a>
+          </div>
+        </article>
+
+        <article class="card card_2-2">
+          <img
+            class="card__background"
+            src="imagens/cards/desenhoDigital_GuitarraHumana.png"
+            alt="Guitarra humana"
+            width="100%"
+          />
+          <div class="card__content | flow">
+            <div class="card__content--container | flow">
+              <h2 class="card__title">Guitarra humana</h2>
+              <p class="card__description">
+                A criação dessa arte uniu a face de uma mulher a uma guitarra, onde os cabelos são os cordões da guitarra e os cílios são as cordas da guitarra.
+              </p>
+            </div>
+            <a href="https://marinamicas.github.io/marinamicas/imagens/cards/desenhoDigital_GuitarraHumana.png" class="card__button" target="_blank">Visualizar</a>
+          </div>
+        </article>
+
+        <article class="card card_2-3">
+          <img
+            class="card__background"
+            src="imagens/cards/desenhoDigital_passaroCurio.png"
+            alt="Pássaro Curió"
+            width="100%"
+          />
+          <div class="card__content | flow">
+            <div class="card__content--container | flow">
+              <h2 class="card__title">Pássaro Curió</h2>
+              <p class="card__description">
+                A criação do pássaro foi com a ideia de criar algo relacionado ao município de Paracambi/RJ que tem o pássaro curió como símbolo.
+              </p>
+            </div>
+            <a href="https://marinamicas.github.io/marinamicas/imagens/cards/desenhoDigital_passaroCurio.png" class="card__button" target="_blank">Visualizar</a>
+          </div>
+        </article>
+
+        <article class="card card_2-4">
+          <img
+            class="card__background"
+            src="imagens/cards/desenhoDigital_EsboçoFoto.png"
+            alt="Esboço de fotografia de mulher de cabelos curtos"
+            width="100%"
+          />
+          <div class="card__content | flow">
+            <div class="card__content--container | flow">
+              <h2 class="card__title">Esboço de fotografia</h2>
+              <p class="card__description">
+                Inicialmente a ideia era treinar pintura digital utilizando o Photoshop, mas parei na parte do esboço utilizando somente a ferramenta Pen para vetorizar a fotografia.
+              </p>
+            </div>
+            <a href="https://marinamicas.github.io/marinamicas/imagens/cards/desenhoDigital_EsboçoFoto.png" class="card__button" target="_blank">Visualizar</a>
+          </div>
+        </article>
+
+        <article class="card card_2-5">
+          <img
+            class="card__background"
+            src="imagens/cards/desenhoDigital_MapaBrasilBaciasSedimentares.png"
+            alt="Mapa do Brasil com as bacias sedimentares"
+            width="100%"
+          />
+          <div class="card__content | flow">
+            <div class="card__content--container | flow">
+              <h2 class="card__title">Bacias sedimentares</h2>
+              <p class="card__description">
+                Quando eu estava trabalhando na ANP, a ideia era criar um mapa interativo, onde ao clicar na região do mapa que representava a uma bacia sedimentar do Brasil, exibia informações resumidas ao lado.
+              </p>
+            </div>
+            <a href="https://marinamicas.github.io/marinamicas/imagens/cards/desenhoDigital_MapaBrasilBaciasSedimentares.png" class="card__button" target="_blank">Visualizar</a>
+          </div>
+        </article>
+      </div>
+
+    </div>
+
+  </body>
 </html>
