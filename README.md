@@ -13,7 +13,7 @@
 <a href="https://marinamicas.github.io/marinamicas/" target="_blank">Acesse o meu portfólio completo</a>
 <br><br>
 
-<img src="imagens/titulos/titulo_ferramentas.png" alt="Ferramentas">
+<img src="imagens/titulos/title_ferramentasQueUso.png" alt="Ferramentas">
 <a href="https://www.figma.com/" target="_blank"><img src="imagens/logos/logo_figma.png" alt="Logo Figma"></a>
 <a href="https://www.adobe.com/br/products/illustrator.html" target="_blank"><img src="imagens/logos/logo_illustrator.png" alt="Logo Adobe Illustrator"></a>
 <a href="https://www.adobe.com/br/products/photoshop.html" target="_blank"><img src="imagens/logos/logo_photoshop.png" alt="Logo Adobe Photoshop"></a>
