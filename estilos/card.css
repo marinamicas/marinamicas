@@ -9,6 +9,12 @@
   box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.25);
 }
 
+.card--transparent {
+  width: 80vw;
+  max-width: 21.875rem;
+  height: 28.125rem;
+}
+
 .card > * {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
