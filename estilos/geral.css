@@ -29,14 +29,14 @@ p {
 }
 
 /* GLOBAL STYLES */
-body {
-  display: grid;
-}
-  
 .flow > * + * {
   margin-top: var(--flow-space, 1em);
 }
 
 h2 {
   font-family: var(--font-title);
+}
+
+.link--main {
+  color: #9F46F8;
 }
