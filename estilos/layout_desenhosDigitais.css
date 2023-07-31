@@ -1,0 +1,44 @@
+.category_desenhos-digitais {grid-area: category_desenhos-digitais;}
+.title_desenhos-digitais {grid-area: title_desenhos-digitais; color: var(--color-title);}
+.card_DD-1 {grid-area: card_DD-1;}
+.card_DD-2 {grid-area: card_DD-2;}
+.card_DD-3 {grid-area: card_DD-3;}
+.card_DD-4 {grid-area: card_DD-4;}
+.card_DD-5 {grid-area: card_DD-5;}
+.card_DD-6 {grid-area: card_DD-6;}
+
+.category_desenhos-digitais {
+    display: grid;
+    grid-template-areas:
+        "title_desenhos-digitais title_desenhos-digitais title_desenhos-digitais"
+        "card_DD-1 card_DD-2 card_DD-3"
+        "card_DD-4 card_DD-5 card_DD-6"
+    ;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+@media only screen and (max-width: 770px) {
+    .category_desenhos-digitais {
+        grid-template-areas:
+            "title_desenhos-digitais title_desenhos-digitais"
+            "card_DD-1 card_DD-2" 
+            "card_DD-3 card_DD-4"
+            "card_DD-5 card_DD-6"
+        ;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .category_desenhos-digitais {
+        grid-template-areas:
+            "title_desenhos-digitais"
+            "card_DD-1"
+            "card_DD-2" 
+            "card_DD-3"
+            "card_DD-4"
+            "card_DD-5"
+            "card_DD-6"
+        ;
+    }
+}

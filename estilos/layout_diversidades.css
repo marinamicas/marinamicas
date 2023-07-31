@@ -1,0 +1,39 @@
+.category_diversidades {grid-area: category_diversidades;}
+.title_diversidades {grid-area: title_diversidades; color: var(--color-title);}
+@media only screen and (min-width: 770px) {
+    .title_diversidades {
+      margin-bottom: 25px;
+    }
+}
+.card_DI-1 {grid-area: card_DI-1;}
+.card_DI-2 {grid-area: card_DI-2;}
+
+.category_diversidades {
+    display: grid;
+    grid-template-areas:
+        "title_diversidades title_diversidades title_diversidades"
+        "card_DI-1 card_DI-2 ."
+    ;
+    column-gap: 30px;
+    width: max-content;
+}
+
+@media only screen and (max-width: 770px) {
+    .category_diversidades {
+        grid-template-areas:
+            "title_diversidades title_diversidades"
+            "card_DI-1 card_DI-2" 
+        ;
+        row-gap: 30px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .category_diversidades {
+        grid-template-areas:
+            "title_diversidades"
+            "card_DI-1"
+            "card_DI-2" 
+        ;
+    }
+}

@@ -1,0 +1,48 @@
+.category_logomarcas {grid-area: category_logomarcas;}
+.title_logomarcas {grid-area: title_logomarcas; color: var(--color-title);}
+.card_LO-1 {grid-area: card_LO-1;}
+.card_LO-2 {grid-area: card_LO-2;}
+.card_LO-3 {grid-area: card_LO-3;}
+.card_LO-4 {grid-area: card_LO-4;}
+.card_LO-5 {grid-area: card_LO-5;}
+.card_LO-6 {grid-area: card_LO-6;}
+.card_LO-7 {grid-area: card_LO-7;}
+
+.category_logomarcas {
+    display: grid;
+    grid-template-areas:
+        "title_logomarcas title_logomarcas title_logomarcas"
+        "card_LO-1 card_LO-2 card_LO-3"
+        "card_LO-4 card_LO-5 card_LO-6"
+        "card_LO-7 . ."
+    ;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+@media only screen and (max-width: 770px) {
+    .category_logomarcas {
+        grid-template-areas:
+            "title_logomarcas title_logomarcas"
+            "card_LO-1 card_LO-2" 
+            "card_LO-3 card_LO-4"
+            "card_LO-5 card_LO-6"
+            "card_LO-7 ."
+        ;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .category_logomarcas {
+        grid-template-areas:
+            "title_logomarcas"
+            "card_LO-1"
+            "card_LO-2" 
+            "card_LO-3"
+            "card_LO-4"
+            "card_LO-5"
+            "card_LO-6"
+            "card_LO-7"
+        ;
+    }
+}
