@@ -18,7 +18,7 @@
     column-gap: 30px;
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 1125px) {
     .category_artigos {
         grid-template-areas:
             "title_artigos title_artigos"
@@ -29,7 +29,7 @@
     }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 745px) {
     .category_artigos {
         grid-template-areas:
             "title_artigos"

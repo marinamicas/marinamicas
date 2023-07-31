@@ -20,7 +20,7 @@
     row-gap: 30px;
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 1125px) {
     .category_logomarcas {
         grid-template-areas:
             "title_logomarcas title_logomarcas"
@@ -32,7 +32,7 @@
     }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 745px) {
     .category_logomarcas {
         grid-template-areas:
             "title_logomarcas"

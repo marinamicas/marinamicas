@@ -18,7 +18,7 @@
     row-gap: 30px;
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 1125px) {
     .category_desenhos-digitais {
         grid-template-areas:
             "title_desenhos-digitais title_desenhos-digitais"
@@ -29,7 +29,7 @@
     }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 745px) {
     .category_desenhos-digitais {
         grid-template-areas:
             "title_desenhos-digitais"

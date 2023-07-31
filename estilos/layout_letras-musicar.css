@@ -17,7 +17,7 @@
     row-gap: 30px;
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 1125px) {
     .category_letras-musicar {
         grid-template-areas:
             "title_letras-musicar title_letras-musicar"
@@ -28,7 +28,7 @@
     }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 745px) {
     .category_letras-musicar {
         grid-template-areas:
             "title_letras-musicar"

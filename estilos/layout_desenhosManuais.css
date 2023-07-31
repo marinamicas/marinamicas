@@ -46,7 +46,7 @@
     row-gap: 30px;
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 1125px) {
     .category_desenhos-manuais {
         grid-template-areas:
             "title_desenhos-manuais title_desenhos-manuais"
@@ -67,7 +67,7 @@
     }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 745px) {
     .category_desenhos-manuais {
         grid-template-areas:
             "title_desenhos-manuais"
