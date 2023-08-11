@@ -7,13 +7,12 @@
 }
 .card_AR-1 {grid-area: card_AR-1;}
 .card_AR-2 {grid-area: card_AR-2;}
-.card_AR-3 {grid-area: card_AR-3;}
 
 .category_artigos {
     display: grid;
     grid-template-areas:
         "title_artigos title_artigos title_artigos"
-        "card_AR-1 card_AR-2 card_AR-3"
+        "card_AR-1 card_AR-2 ."
     ;
     column-gap: 30px;
 }
@@ -22,8 +21,7 @@
     .category_artigos {
         grid-template-areas:
             "title_artigos title_artigos"
-            "card_AR-1 card_AR-2" 
-            "card_AR-3 ."
+            "card_AR-1 card_AR-2"
         ;
         row-gap: 30px;
     }
@@ -34,8 +32,7 @@
         grid-template-areas:
             "title_artigos"
             "card_AR-1"
-            "card_AR-2" 
-            "card_AR-3"
+            "card_AR-2"
         ;
     }
 }

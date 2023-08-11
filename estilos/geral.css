@@ -37,6 +37,10 @@ h2 {
   font-family: var(--font-title);
 }
 
+p {
+  font-family: var(--font-text);
+}
+
 .link--main {
   color: #9F46F8;
 }

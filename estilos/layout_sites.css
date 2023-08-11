@@ -7,13 +7,12 @@
 }
 .card_SI-1 {grid-area: card_SI-1;}
 .card_SI-2 {grid-area: card_SI-2;}
-.card_SI-3 {grid-area: card_SI-3;}
 
 .category_sites {
     display: grid;
     grid-template-areas:
         "title_sites title_sites title_sites"
-        "card_SI-1 card_SI-2 card_SI-3"
+        "card_SI-1 card_SI-2 ."
     ;
     column-gap: 30px;
 }
@@ -22,8 +21,7 @@
     .category_sites {
         grid-template-areas:
             "title_sites title_sites"
-            "card_SI-1 card_SI-2" 
-            "card_SI-3 ."
+            "card_SI-1 card_SI-2"
         ;
         row-gap: 30px;
     }
@@ -34,8 +32,7 @@
         grid-template-areas:
             "title_sites"
             "card_SI-1"
-            "card_SI-2" 
-            "card_SI-3"
+            "card_SI-2"
         ;
     }
 }

@@ -7,13 +7,12 @@
 }
 .card_ET-1 {grid-area: card_ET-1;}
 .card_ET-2 {grid-area: card_ET-2;}
-.card_ET-3 {grid-area: card_ET-3;}
 
 .category_etiquetas {
     display: grid;
     grid-template-areas:
         "title_etiquetas title_etiquetas title_etiquetas"
-        "card_ET-1 card_ET-2 card_ET-3"
+        "card_ET-1 card_ET-2 ."
     ;
     column-gap: 30px;
 }
@@ -23,7 +22,6 @@
         grid-template-areas:
             "title_etiquetas title_etiquetas"
             "card_ET-1 card_ET-2"
-            "card_ET-3 ." 
         ;
         row-gap: 30px;
     }
@@ -35,7 +33,6 @@
             "title_etiquetas"
             "card_ET-1"
             "card_ET-2" 
-            "card_ET-3"
         ;
     }
 }

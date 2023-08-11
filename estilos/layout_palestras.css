@@ -7,13 +7,12 @@
 }
 .card_PA-1 {grid-area: card_PA-1;}
 .card_PA-2 {grid-area: card_PA-2;}
-.card_PA-3 {grid-area: card_PA-3;}
 
 .category_palestras {
     display: grid;
     grid-template-areas:
         "title_palestras title_palestras title_palestras"
-        "card_PA-1 card_PA-2 card_PA-3"
+        "card_PA-1 card_PA-2 ."
     ;
     column-gap: 30px;
 }
@@ -22,8 +21,7 @@
     .category_palestras {
         grid-template-areas:
             "title_palestras title_palestras"
-            "card_PA-1 card_PA-2" 
-            "card_PA-3 ."
+            "card_PA-1 card_PA-2"
         ;
         row-gap: 30px;
     }
@@ -34,8 +32,7 @@
         grid-template-areas:
             "title_palestras"
             "card_PA-1"
-            "card_PA-2" 
-            "card_PA-3"
+            "card_PA-2"
         ;
     }
 }

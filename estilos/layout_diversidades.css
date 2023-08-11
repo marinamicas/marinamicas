@@ -7,13 +7,12 @@
 }
 .card_DI-1 {grid-area: card_DI-1;}
 .card_DI-2 {grid-area: card_DI-2;}
-.card_DI-3 {grid-area: card_DI-3;}
 
 .category_diversidades {
     display: grid;
     grid-template-areas:
         "title_diversidades title_diversidades title_diversidades"
-        "card_DI-1 card_DI-2 card_DI-3"
+        "card_DI-1 card_DI-2 ."
     ;
     column-gap: 30px;
 }
@@ -23,7 +22,6 @@
         grid-template-areas:
             "title_diversidades title_diversidades"
             "card_DI-1 card_DI-2"
-            "card_DI-3 ." 
         ;
         row-gap: 30px;
     }
@@ -35,7 +33,6 @@
             "title_diversidades"
             "card_DI-1"
             "card_DI-2"
-            "card_DI-3" 
         ;
     }
 }
