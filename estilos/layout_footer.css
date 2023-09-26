@@ -1,13 +1,18 @@
 .footer {
-    background-color: #121212;
-    height: 170px;
-    color: #fff;
-    text-align: center;
-    padding-top: 40px;
-    margin-top: 40px;
-    font-family: var(--font-text);
-}
-
-.footer {
     grid-area: footer;
+    background-image: url(../imagens/imgDecorativa.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    align-items: center;
+    justify-content: end;
+    height: 140px;
+    color: #7f7f7f;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: var(--font-text);
+
+    @media only screen and (max-height: 630px) {
+        padding-bottom: 20px;
+    }
 }

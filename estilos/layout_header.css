@@ -1,0 +1,64 @@
+.layout_header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 100%;
+    grid-template-areas:
+        "headline buttons"
+    ;
+    column-gap: 20px;
+
+    @media only screen and (max-width: 678px) {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas:
+            "buttons"
+            "headline"
+        ;
+        column-gap: 0;
+        row-gap: 20px;
+    }
+}
+
+.header {
+    grid-area: header;
+}
+
+.headline {
+    grid-area: headline;
+}
+
+.buttons {
+    grid-area: buttons;
+    
+    @media only screen and (max-width: 678px) {
+        justify-self: end;
+    }
+}
+
+.header {
+    height: 147px;
+
+    @media only screen and (max-width: 678px) {
+        height: max-content;
+    }
+}
+
+.headline {
+    color: #C892FF;
+    font-family: var(--font-title);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+}
+
+.buttons {
+    color: #000000;
+    font-family: var(--font-text);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

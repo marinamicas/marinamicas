@@ -1,0 +1,80 @@
+@import url('https://db.onlinewebfonts.com/c/7cc8cbbd7a330c0d1e7c08c6d62711e4?family=League+Spartan+Regular');
+
+@font-face {
+  font-family: 'League Spartan Regular';
+  
+  src:
+    url("https://db.onlinewebfonts.com/t/7cc8cbbd7a330c0d1e7c08c6d62711e4.eot"),
+    url("https://db.onlinewebfonts.com/t/7cc8cbbd7a330c0d1e7c08c6d62711e4.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/7cc8cbbd7a330c0d1e7c08c6d62711e4.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/7cc8cbbd7a330c0d1e7c08c6d62711e4.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/7cc8cbbd7a330c0d1e7c08c6d62711e4.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/7cc8cbbd7a330c0d1e7c08c6d62711e4.svg#League Spartan Regular")format("svg")
+  ;
+  src: url("../fontes/League Spartan Regular/7cc8cbbd7a330c0d1e7c08c6d62711e4.eot");
+  src:
+    url("../fontes/League Spartan Regular/7cc8cbbd7a330c0d1e7c08c6d62711e4.eot?#iefix")format("embedded-opentype"),
+    url("../fontes/League Spartan Regular/7cc8cbbd7a330c0d1e7c08c6d62711e4.woff")format("woff"),
+    url("../fontes/League Spartan Regular/7cc8cbbd7a330c0d1e7c08c6d62711e4.woff2")format("woff2"),
+    url("../fontes/League Spartan Regular/7cc8cbbd7a330c0d1e7c08c6d62711e4.ttf")format("truetype"),
+    url("../fontes/League Spartan Regular/7cc8cbbd7a330c0d1e7c08c6d62711e4.svg#League Spartan Regular")format("svg")
+  ;
+  font-weight:normal;
+  font-style:normal;
+  font-display:swap;
+}
+
+:root {
+    /* Colors */
+    --brand-color: #9F46F8;
+    --black: hsl(0, 0%, 0%);
+    --white: hsl(0, 0%, 100%);
+    --color-title: #9F46F8;
+  
+    /* Fonts */
+    --font-title: 'League Spartan Regular';
+    --font-text: 'League Spartan Regular';
+}
+
+h1, h2 {
+  font-family: var(--font-title);
+}
+  
+p {
+  font-family: var(--font-text);
+}
+
+.link--main {
+  color: #9F46F8;
+}
+
+.category_title {
+    color: #7F7F7F;
+    font-family: var(--font-title);
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.category_text {
+    color: #6750A4;
+    font-family: var(--font-text);
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 30px 0 5px 0;
+}
+
+.category_ano-inicio {
+  font-family: var(--font-text);
+  font-size: 0.7rem;
+}
+
+.category_ano-fim {
+  font-family: var(--font-text);
+  font-size: 0.7rem;
+  float: right;
+  margin-top: 4px;
+}

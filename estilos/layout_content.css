@@ -1,0 +1,17 @@
+.content {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 147px auto 140px;
+    grid-template-areas:
+        "header"
+        "content"
+        "footer"
+    ;
+    row-gap: 30px;
+    margin: 20px;
+    height: calc(100vh - 40px);
+
+    @media only screen and (max-width: 678px) {
+        grid-template-rows: auto auto 140px;
+    }
+}
