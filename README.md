@@ -2,6 +2,7 @@
 
 <img src="imagens/titulos/titulo_olaMundo.png" alt="Olá mundo!">
 <p>print("Eu sou a Marina Micas")</p>
+<p>Atenção: esse portfólio está sendo reestruturado ;)</p>
 <a href="arquivos/Curriculo_Marina Micas Jardim.pdf" target="_blank">Meu currículo</a>
 <br><br>
 
