@@ -1,6 +1,6 @@
 .layout_content {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 100%;
     grid-template-rows: 147px auto 140px;
     grid-template-areas:
         "header"
