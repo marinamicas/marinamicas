@@ -36,8 +36,12 @@
     --font-text: 'League Spartan Regular';
 }
 
-h1, h2 {
+h1 {
   font-family: var(--font-title);
+
+  @media only screen and (max-width: 575px) {
+    font-size: larger;
+  }
 }
   
 p {
