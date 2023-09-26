@@ -15,3 +15,7 @@
         grid-template-rows: auto auto 140px;
     }
 }
+
+.content {
+    grid-area: content;
+}
