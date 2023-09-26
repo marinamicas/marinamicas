@@ -3,15 +3,11 @@
 <img src="imagens/titulos/titulo_olaMundo.png" alt="Olá mundo!">
 <p>print("Eu sou a Marina Micas")</p>
 <p>Atenção: esse portfólio está sendo reestruturado ;)</p>
-<a href="arquivos/Curriculo_Marina Micas Jardim.pdf" target="_blank">Meu currículo</a>
-<br><br>
-
-<a href = "mailto:marinamicas@gmail.com" target="_blank"><img src="imagens/contatos/contato_e-mail.png"></a>
-<a href="https://www.linkedin.com/in/marinamicas/" target="_blank"><img src="imagens/contatos/contato_linkedIn.png"></a>
 <br><br>
 
 <img src="imagens/amostra_portfolio.png" alt="Amostra do portfólio com: logomarca bhaarat sobre cozinha indiana, vetor de uma fotografia de mulher, letra sobre informática para musicar, processos e tarefas UX."> 
 <a href="https://marinamicas.github.io/marinamicas/" target="_blank">Acesse o meu portfólio completo</a>
+<a href="arquivos/Curriculo_Marina Micas Jardim.pdf" target="_blank">Meu currículo</a>
 <br><br>
 
 <img src="imagens/titulos/titulo_ferramentasQueUso.png" alt="Ferramentas">
