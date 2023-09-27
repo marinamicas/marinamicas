@@ -1,6 +1,6 @@
 .layout-card {
     display: grid;
-    grid-template-columns: minmax(355px,auto);
+    grid-template-columns: minmax(100px,372px);
     grid-template-rows: 52px 280px auto 72px;
     grid-template-areas:
         "card-header"

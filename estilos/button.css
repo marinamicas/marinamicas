@@ -23,6 +23,7 @@
     line-height: normal;
     text-decoration: none;
     color: #000;
+    cursor: pointer;
 }
 
 a:hover.button {

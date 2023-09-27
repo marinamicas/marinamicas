@@ -55,12 +55,12 @@
                 ano 2018
               </div>
             </div>
-            <div class="card-content" id="card-content">
+            <div class="card-content">
               <p>
-                O objetivo principal do artigo é propor um modelo para criar games inteligentes com conteúdos reais em várias áreas de conhecimento. Criando conexões entre teorias e conceitos em um aprendizado natural dentro de um ambiente lúdico. <a href="https://www.sbgames.org/sbgames2018/files/papers/ArtesDesignShort/187081.pdf" class="link--main" target="_blank">Saiba mais</a>
+                O objetivo principal do artigo é propor um modelo para criar games inteligentes com conteúdos reais em várias áreas de conhecimento. Criando conexões entre teorias e conceitos em um aprendizado natural dentro de um ambiente lúdico. 
               </p>
             </div>
-            <a id="card-toggle" class="button card-button" onclick="toggleCard(this)">Detalhes do projeto</a>
+            <a href="https://www.sbgames.org/sbgames2018/files/papers/ArtesDesignShort/187081.pdf" class="button card-button" target="_blank">Saiba mais</a>
           </div>
 
           <div class="card card-ART_2 layout-card">
@@ -76,12 +76,12 @@
                 ano 2018
               </div>
             </div>
-            <div class="card-content" id="card-content">
+            <div class="card-content">
               <p>
-                Remete a importância de criar uma opção de exibição para ícones inteligentes dos nossos arquivos digitais, tanto como meio organizador quanto centralizador de conteúdos para facilitar o processo da aprendizagem. <a href="http://revistas.hcte.ufrj.br/index.php/RevistaSH/article/view/213" class="link--main" target="_blank">Saiba mais</a>
+                Remete a importância de criar uma opção de exibição para ícones inteligentes dos nossos arquivos digitais, tanto como meio organizador quanto centralizador de conteúdos para facilitar o processo da aprendizagem.
               </p>
             </div>
-            <a id="card-toggle" class="button card-button" onclick="toggleCard(this)">Detalhes do projeto</a>
+            <a href="http://revistas.hcte.ufrj.br/index.php/RevistaSH/article/view/213" class="button card-button" target="_blank">Saiba mais</a>
           </div>
         </div>
       </details>
@@ -105,12 +105,12 @@
                 ano 2019
               </div>
             </div>
-            <div class="card-content" id="card-content">
+            <div class="card-content">
               <p>
-                A arte foi inspirada na pintura 'A criação de Adão' de Michelangelo, unindo a esse formato 2 personagens de jogos: Lara Croft e Pitfall. E um modelo tridimensional, sendo este Deus, para contextualizar essa FanArte. <a href="https://drive.google.com/file/d/1xYWCVvqa0glrFXWmI1EEP0wT9vXTT_qd/view?usp=sharing" class="link--main" target="_blank">Saiba mais</a>
+                A arte foi inspirada na pintura 'A criação de Adão' de Michelangelo, unindo a esse formato 2 personagens de jogos: Lara Croft e Pitfall. E um modelo tridimensional, sendo este Deus, para contextualizar essa FanArte. 
               </p>
             </div>
-            <a id="card-toggle" class="button card-button" onclick="toggleCard(this)">Detalhes do projeto</a>
+            <a href="https://drive.google.com/file/d/1xYWCVvqa0glrFXWmI1EEP0wT9vXTT_qd/view?usp=sharing" class="button card-button" target="_blank">Saiba mais</a>
           </div>
 
           <div class="card card-DES_2 layout-card">
@@ -126,12 +126,11 @@
                 ano 2017
               </div>
             </div>
-            <div class="card-content" id="card-content">
+            <div class="card-content">
               <p>
                 Foi idealizado nessa imagem a temática para um site de roupas infantis.
               </p>
             </div>
-            <a id="card-toggle" class="button card-button" onclick="toggleCard(this)">Detalhes do projeto</a>
           </div>
         </div>
       </details>
@@ -154,12 +153,12 @@
                 ano 2023
               </div>
             </div>
-            <div class="card-content" id="card-content">
+            <div class="card-content">
               <p>
-                Minha experiência no <a href="https://sheisacreative.com.br/curso/bootcampinho-ui-ux-design" target="_blank" class="link--main">Bootcampinho de UI/UX</a> me fez aprender de forma acelerada e organizada muitas técnicas de UX e UI design e uma delas foi esse tema do meu primeiro estudo de caso escrito em artigo no Medium: <a href="https://medium.com/@marinamicas/processo-de-design-em-um-estudo-de-caso-de-ux-user-experience-1c71c5be9dbc" class="link--main" target="_blank">O Processo de Design</a>.
+                Minha experiência no <a href="https://sheisacreative.com.br/curso/bootcampinho-ui-ux-design" target="_blank" class="link--main">Bootcampinho de UI/UX</a> me fez aprender de forma acelerada e organizada muitas técnicas de UX e UI design e uma delas foi esse tema do meu primeiro estudo de caso escrito em artigo no Medium:O Processo de Design.
               </p>
             </div>
-            <a id="card-toggle" class="button card-button" onclick="toggleCard(this)">Detalhes do projeto</a>
+            <a href="https://medium.com/@marinamicas/processo-de-design-em-um-estudo-de-caso-de-ux-user-experience-1c71c5be9dbc" target="_blank" class="button card-button">Saiba mais</a>
           </div>
         </div>
       </details>
@@ -169,27 +168,5 @@
       <a href="https://github.com/marinamicas" target="_blank" class="link--main">Meu GitHub</a>
       <p>Desenvolvido por Marina Micas Jardim © 2023</p>
     </div>
-
-    <script>
-      var cardCount = 0;
-
-      function toggleCard(button) {
-        var card = button.closest('.card');
-        var cardContent = card.querySelector('.card-content');
-        
-        if (cardContent.style.display === 'none') {
-          cardContent.style.display = 'block';
-        } else {
-          cardContent.style.display = 'none';
-        }
-      }
-
-      document.querySelectorAll('.card').forEach(function(card) {
-        var button = card.querySelector('.card-toggle');
-        
-        cardCount++;
-        button.id = 'card-toggle-' + cardCount;
-      });
-    </script>
   </body>
 </html>
