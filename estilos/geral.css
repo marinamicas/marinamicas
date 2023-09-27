@@ -13,8 +13,3 @@ h2,
 p {
   margin: 0;
 }
-
-/* GLOBAL STYLES */
-.flow > * + * {
-  margin-top: var(--flow-space, 1em);
-}

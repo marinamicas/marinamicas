@@ -21,44 +21,9 @@
 
 .header {
     grid-area: header;
-}
-
-.headline {
-    grid-area: headline;
-}
-
-.buttons {
-    grid-area: buttons;
-    
-    @media only screen and (max-width: 678px) {
-        justify-self: end;
-    }
-}
-
-.header {
     height: 147px;
 
     @media only screen and (max-width: 678px) {
         height: max-content;
     }
-}
-
-.headline {
-    color: #C892FF;
-    font-family: var(--font-title);
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    display: flex;
-    align-items: center;
-}
-
-.buttons {
-    color: #000000;
-    font-family: var(--font-text);
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }

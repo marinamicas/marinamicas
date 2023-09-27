@@ -1,0 +1,17 @@
+.layout-card {
+    display: grid;
+    grid-template-columns: minmax(355px,auto);
+    grid-template-rows: 52px 280px auto 72px;
+    grid-template-areas:
+        "card-header"
+        "card-img"
+        "card-content"
+        "card-button"
+    ;
+    align-items: center;
+
+    @media only screen and (max-width: 1210px) {
+        grid-template-columns: minmax(100px,355px);
+        grid-template-rows: repeat(4,auto);
+    }
+}

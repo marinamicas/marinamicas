@@ -1,0 +1,30 @@
+.layout_project-DES {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: 100%;
+    grid-template-areas:
+        "card-DES_1  card-DES_2"
+    ;
+    column-gap: 20px;
+    justify-content: start;
+
+    @media only screen and (max-width: 1210px) {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas:
+            "card-DES_1"
+            "card-DES_2"
+        ;
+        column-gap: 0;
+        row-gap: 20px;
+        justify-items: center;
+    }
+}
+
+.card-DES_1 {
+    grid-area: card-DES_1;
+}
+
+.card-DES_2 {
+    grid-area: card-DES_2;
+}

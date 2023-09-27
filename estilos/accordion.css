@@ -1,0 +1,16 @@
+details {
+    margin-bottom:20px;
+}
+
+summary {
+    background-color: #E6E6E6;
+    padding: 10px;
+    font-size: 2rem;
+    color: #6750A4;
+    cursor:pointer;
+}
+
+.accordion {
+    background-color: #E6E6E6;
+    padding: 20px;
+}

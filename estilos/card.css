@@ -1,0 +1,46 @@
+.card {
+    background-color: #fff;
+    max-width: max-content;
+}
+
+.card-header {
+    grid-area: card-header;
+    background-color: #D1CAE4;
+    color: #262626;
+    padding: 15px;
+}
+
+.card-img {
+    grid-area: card-img;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-content {
+    grid-area: card-content;
+    font-size: 1rem;
+    line-height: 17px;
+    padding: 15px 15px 0 15px;
+    display: none;
+}
+
+.card-button {
+    grid-area: card-button;
+}
+
+.card .button {
+    cursor: pointer;
+    display: block;
+    margin: 15px;
+}
+
+.card-img a img {
+    padding: 15px;
+    height: 250px;
+
+    @media only screen and (max-width: 1210px) {
+        width: 100%;
+        height: unset;
+    }
+}
