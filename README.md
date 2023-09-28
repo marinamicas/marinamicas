@@ -1,3 +1,4 @@
+<div style="background-color: #fff; color: #5a5a5a;">
 <img src="imagens/titulos/titulo_olaMundo.png" alt="Olá mundo!">
 <p>print("Eu sou a Marina Micas")</p>
 <br><br>
@@ -24,3 +25,4 @@ Acesse o <a href="https://marinamicas.github.io/marinamicas/" target="_blank">me
 <a href="https://github.com/" target="_blank"><img src="imagens/logos/logo_gitHub.png" alt="Logo GitHub"></a>
 <a href="https://code.visualstudio.com/" target="_blank"><img src="imagens/logos/logo_visualStudioCode.png" alt="Logo Visual Studio Code"></a>
 <a href="https://colab.research.google.com/" target="_blank"><img src="imagens/logos/logo_colab.png" alt="Logo Colab"></a>
+</div>
