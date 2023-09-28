@@ -1,0 +1,30 @@
+.layout_content-INI {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 48px 1fr 140px;
+    grid-template-areas:
+        "buttons-INI"
+        "content-INI"
+        "footer"
+    ;
+    row-gap: 20px;
+    margin: 20px;
+    height: 100vh;
+}
+
+.buttons-INI {
+    grid-area: buttons-INI;
+    justify-self: end;
+}
+.content-INI {
+    grid-area: content-INI;
+    align-self: center;
+}
+
+.img-INI {
+    width: 50%;
+
+    @media only screen and (max-width: 920px) {
+        width: 100%;
+    }
+}

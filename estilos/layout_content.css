@@ -16,6 +16,11 @@
     }
 }
 
-.content {
-    grid-area: content;
+.buttons {
+    grid-area: buttons;
+    
+    @media only screen and (max-width: 678px) {
+        justify-self: end;
+    }
 }
+.content {grid-area: content;}
