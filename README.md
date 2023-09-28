@@ -1,17 +1,14 @@
-<img src="https://komarev.com/ghpvc/?username=marinamicas&label=Profile%20views&color=0e75b6&style=flat" alt="marinamicas" />
-
 <img src="imagens/titulos/titulo_olaMundo.png" alt="Olá mundo!">
 <p>print("Eu sou a Marina Micas")</p>
 <br><br>
-<a href="https://marinamicas.github.io/marinamicas/" target="_blank">Acesse o meu portfólio completo</a>
-<br><br>
-<a href="arquivos/Curriculo_Marina Micas Jardim.pdf" target="_blank">Meu currículo</a>
+Acesse o <a href="https://marinamicas.github.io/marinamicas/" target="_blank">meu portfólio completo</a> e/ou o meu <a href="arquivos/Curriculo_Marina Micas Jardim.pdf" target="_blank">currículo</a> e abaixo uma breve amostra.
 <br><br>
 
-<img src="imagens/amostra_portfolio.png" alt="Amostra do portfólio com: logomarca bhaarat sobre cozinha indiana, vetor de uma fotografia de mulher, letra sobre informática para musicar, processos e tarefas UX."> 
+<img src="imagens/Meu portfólio.gif" alt="Amostra do portfólio com: logomarca bhaarat sobre cozinha indiana, vetor de uma fotografia de mulher, letra sobre informática para musicar, processos, tarefas UX etc." style=" width: 50%;"> 
 <br><br>
 
 <img src="imagens/titulos/titulo_ferramentasQueUso.png" alt="Ferramentas">
+<br>
 <a href="https://www.figma.com/" target="_blank"><img src="imagens/logos/logo_figma.png" alt="Logo Figma"></a>
 <a href="https://www.adobe.com/br/products/illustrator.html" target="_blank"><img src="imagens/logos/logo_illustrator.png" alt="Logo Adobe Illustrator"></a>
 <a href="https://www.adobe.com/br/products/photoshop.html" target="_blank"><img src="imagens/logos/logo_photoshop.png" alt="Logo Adobe Photoshop"></a>
