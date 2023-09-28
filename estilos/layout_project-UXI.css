@@ -1,20 +1,18 @@
 .layout_project-UXI {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 100%;
+    grid-template-rows: auto;
     grid-template-areas:
-        "card-UXI_1"
+        "card-UXI_01"
     ;
     column-gap: 20px;
     justify-content: start;
 
-    @media only screen and (max-width: 1210px) {
+    @media only screen and (max-width: 600px) {
         column-gap: 0;
         row-gap: 20px;
         justify-content: center;
     }
 }
 
-.card-UXI_1 {
-    grid-area: card-UXI_1;
-}
+.card-UXI_01 {grid-area: card-UXI_01;}
