@@ -1,11 +1,12 @@
 .card {
     background-color: #fff;
     max-width: max-content;
+    border: 1px solid rgba(209, 202, 228);
 }
 
 .card-header {
     grid-area: card-header;
-    background-color: #D1CAE4;
+    background-color: rgb(209 202 228 / 52%);
     color: #262626;
     padding: 15px;
 }
@@ -15,27 +16,28 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding: 15px 15px 0 15px;
 }
 
 .card-content {
     grid-area: card-content;
     font-size: 1rem;
     line-height: 17px;
-    padding: 15px 15px 0 15px;
+    padding: 15px;
     align-self: start;
 }
 
 .card-button {
     grid-area: card-button;
+    margin: 0 15px 15px 15px;
     justify-self: end;
 }
 
 .card .button {
     width: max-content;
-    margin: 15px;
 }
 
 .card-img a img {
-    padding: 15px;
+    padding: 0 0 15px 0;
     width: 100%;
 }

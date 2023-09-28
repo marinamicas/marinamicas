@@ -9,5 +9,5 @@
         "card-button"
     ;
     align-items: center;
-    align-content: start;
+    align-content: space-between;
 }

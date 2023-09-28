@@ -14,8 +14,8 @@
 }
 
 a:hover.button {
-    background-color: #D1CAE4;
-    border: 1px solid #D1CAE4;
+    background-color: #c892ff78;
+    border: 1px solid #c892ff;
 }
 
 a:active.button, a:focus.button, a:visited.button {
