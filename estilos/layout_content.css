@@ -9,7 +9,7 @@
     ;
     row-gap: 55px;
     margin: 20px;
-    height: calc(100vh - 40px);
+    height: calc(100vh - -32px);
 
     @media only screen and (max-width: 678px) {
         grid-template-rows: auto auto 140px;
