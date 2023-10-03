@@ -5,8 +5,8 @@
 Acesse meu <a href="https://marinamicas.github.io/marinamicas/" target="_blank">portfólio completo</a> e/ou meu <a href="arquivos/Curriculo_Marina Micas Jardim.pdf" target="_blank">currículo</a>. Abaixo, uma breve amostra.
 <br><br>
 
-<!-- <img src="imagens/Meu portfólio.gif" alt="Amostra do portfólio com: logomarca bhaarat sobre cozinha indiana, vetor de uma fotografia de mulher, letra sobre informática para musicar, processos, tarefas UX etc." style=" width: 50%;"> 
-<br><br> -->
+<img src="imagens/Meu portfólio.gif" alt="Amostra do portfólio com: logomarca bhaarat sobre cozinha indiana, vetor de uma fotografia de mulher, letra sobre informática para musicar, processos, tarefas UX etc." style=" width: 45%;"> 
+<br><br>
 
 <img src="imagens/titulos/titulo_ferramentasQueUso.png" alt="Ferramentas">
 <br>
