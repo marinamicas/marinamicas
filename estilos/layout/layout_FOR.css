@@ -8,6 +8,19 @@
         "layout_FOR_item_3"
     ;
     row-gap: 15px;
+
+    @media only screen and (max-width: 1139px) {
+        grid-template-rows: repeat(3, 40px);
+        margin-top: 20px;
+    }
+
+    @media only screen and (max-width: 1019px) {
+        grid-template-rows: repeat(3, 20px);
+    }
+
+    @media only screen and (max-width: 500px) {
+        grid-template-rows: repeat(3, 40px);
+    }
 }
 
 .layout_FOR_item {
@@ -42,6 +55,18 @@
     height: 2.3rem;
     flex-shrink: 0;
     background: #BFBFBF;
+
+    @media only screen and (max-width: 1139px) {
+        height: 4rem;
+    }
+
+    @media only screen and (max-width: 1019px) {
+        height: 5.5rem;
+    }
+
+    @media only screen and (max-width: 900px) {
+        height: 3.4rem;
+    }
 }
 
 .item_L-hor-FOR {

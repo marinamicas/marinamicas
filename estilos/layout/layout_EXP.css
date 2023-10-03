@@ -12,6 +12,10 @@
         "layout_EXP_item_7"
     ;
     row-gap: 15px;
+
+    @media only screen and (max-width: 999px) {
+        grid-template-rows: repeat(7, 50px);
+    }
 }
 
 .layout_EXP_item {
@@ -23,6 +27,15 @@
         "item_ano-EXP item_L-ver-EXP item_L-hor-EXP item_qtd-EXP item_dsc-EXP"
     ;
     align-items: center;
+
+    @media only screen and (max-width: 999px) {
+        grid-template-columns: 35px 2px 13px 64px auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "item_ano-EXP item_L-ver-EXP item_L-hor-EXP item_qtd-EXP ." 
+            ". . . item_dsc-EXP item_dsc-EXP"
+        ;
+    }
 }
 
 .item_ano-EXP {
@@ -45,6 +58,10 @@
     width: 0.125rem;
     height: 2.3rem;
     background: #BFBFBF;
+
+    @media only screen and (max-width: 999px) {
+        height: 4.3rem;
+    }
 }
 
 .item_L-hor-EXP {
@@ -83,6 +100,11 @@
     display: flex;
     align-items: center;
     column-gap: 5px;
+
+    @media only screen and (max-width: 999px) {
+        margin-top: -20px;
+        width: auto;
+    }
 }
 
 .layout_EXP_item_1 {grid-area: layout_EXP_item_1;}

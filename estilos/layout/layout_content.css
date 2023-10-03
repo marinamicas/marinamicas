@@ -9,6 +9,11 @@
     ;
     row-gap: 55px;
     margin: 20px;
+
+    @media only screen and (max-width: 375px) {
+        grid-template-rows: 145px auto 60px;
+        row-gap: 35px;
+    }
 }
 
 .buttons {

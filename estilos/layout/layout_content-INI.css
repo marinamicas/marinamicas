@@ -11,6 +11,10 @@
     height: calc(100vh - 40px);
     justify-items: center;
     align-content: start;
+
+    @media only screen and (max-width: 999px) {
+        row-gap: 20px;
+    }
 }
 
 .buttons-INI {
@@ -29,6 +33,21 @@
         "img-C_INI layout_C_text-btn-INI accordions-C_INI"
     ;
     column-gap: 40px;
+
+    @media only screen and (max-width: 1050px) {
+        column-gap: 20px;
+    }
+
+    @media only screen and (max-width: 999px) {
+        grid-template-columns: repeat(3, auto);
+        grid-template-areas:
+            "img-C_INI"
+            "layout_C_text-btn-INI"
+            "accordions-C_INI"
+        ;
+        column-gap: 0;
+        row-gap: 20px;
+    }
 }
 
 .img-C_INI {
@@ -40,6 +59,18 @@
     grid-area: accordions-C_INI;
     justify-self: start;
     margin-left: 60px;
+
+    @media only screen and (max-width: 1150px) {
+        margin: 0 20px 50px 0;
+    }
+
+    @media only screen and (max-width: 999px) {
+        margin: 20px 0 50px 0;
+    }
+
+    @media only screen and (max-width: 400px) {
+        margin: 50px 0 50px 0;
+    }
 }
 
 .layout_C_text-btn-INI {
@@ -52,6 +83,10 @@
         "buttons-C_INI"
     ;
     row-gap: 20px;
+
+    @media only screen and (max-width: 400px) {
+        grid-template-columns: minmax(auto, 240px);
+    }
 }
 
 .text-C_INI {
@@ -70,4 +105,23 @@
     display: flex;
     column-gap: 20px;
     height: 30px;
+}
+
+@media only screen and (max-width: 400px) {
+    .layout_buttons-C_INI {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-template-rows: repeat(2, 30px);
+        grid-template-areas:
+            "btn_item-C_INI-L btn_item-C_INI-G btn_item-C_INI-E btn_item-C_INI-W"
+            "btn_item-C_INI-C btn_item-C_INI-C btn_item-C_INI-C ."
+        ;
+        row-gap: 20px;
+    }
+
+    .btn_item-C_INI-L {grid-area: btn_item-C_INI-L;}
+    .btn_item-C_INI-G {grid-area: btn_item-C_INI-G;}
+    .btn_item-C_INI-E {grid-area: btn_item-C_INI-E;}
+    .btn_item-C_INI-W {grid-area: btn_item-C_INI-W;}
+    .btn_item-C_INI-C {grid-area: btn_item-C_INI-C;}
 }

@@ -8,6 +8,15 @@
     align-content: center;
     justify-content: center;
     margin-top: -20px;
+
+    @media only screen and (max-width: 1600px) {
+        grid-template-columns: auto;
+        grid-template-areas:
+            "category-1"
+            "category-2"
+        ;
+        column-gap: 0;
+    }
 }
 
 .category-1 {
