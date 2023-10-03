@@ -10,7 +10,7 @@
     row-gap: 55px;
     margin: 20px;
 
-    @media only screen and (max-width: 375px) {
+    @media only screen and (max-width: 600px) {
         grid-template-rows: 145px auto 60px;
         row-gap: 35px;
     }
@@ -19,7 +19,7 @@
 .buttons {
     grid-area: buttons;
     
-    @media only screen and (max-width: 678px) {
+    @media only screen and (max-width: 600px) {
         justify-self: end;
     }
 }
