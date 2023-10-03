@@ -1,0 +1,94 @@
+.layout_EXP {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(7, 21px);
+    grid-template-areas:
+        "layout_EXP_item_1"
+        "layout_EXP_item_2"
+        "layout_EXP_item_3"
+        "layout_EXP_item_4"
+        "layout_EXP_item_5"
+        "layout_EXP_item_6"
+        "layout_EXP_item_7"
+    ;
+    row-gap: 15px;
+}
+
+.layout_EXP_item {
+    grid-area: layout_EXP_item;
+    display: grid;
+    grid-template-columns: 35px 2px 13px 64px auto;
+    grid-template-rows: 21px;
+    grid-template-areas:
+        "item_ano-EXP item_L-ver-EXP item_L-hor-EXP item_qtd-EXP item_dsc-EXP"
+    ;
+    align-items: center;
+}
+
+.item_ano-EXP {
+    grid-area: item_ano-EXP;
+    display: flex;
+    width: 2.1875rem;
+    height: 1.3125rem;
+    flex-direction: column;
+    justify-content: center;
+    color: #262626;
+    text-align: center;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0rem; /* 0% */
+}
+
+.item_L-ver-EXP {
+    grid-area: item_L-ver-EXP;
+    width: 0.125rem;
+    height: 2.3rem;
+    background: #BFBFBF;
+}
+
+.item_L-hor-EXP {
+    grid-area: item_L-hor-EXP;
+    width: 0.9375rem;
+    height: 0.125rem;
+    background: #BFBFBF;
+}
+
+.item_qtd-EXP {
+    grid-area: item_qtd-EXP;
+    height: 21px;
+    width: 4rem;
+    padding: 0.3125rem 0.75rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.25rem;
+    background: #BFBFBF;
+    color: #262626;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.item_dsc-EXP {
+    grid-area: item_dsc-EXP;
+    height: 1.3125rem;
+    color: #000;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.layout_EXP_item_1 {grid-area: layout_EXP_item_1;}
+.layout_EXP_item_2 {grid-area: layout_EXP_item_2;}
+.layout_EXP_item_3 {grid-area: layout_EXP_item_3;}
+.layout_EXP_item_4 {grid-area: layout_EXP_item_4;}
+.layout_EXP_item_5 {grid-area: layout_EXP_item_5;}
+.layout_EXP_item_6 {grid-area: layout_EXP_item_6;}
+.layout_EXP_item_7 {grid-area: layout_EXP_item_7;}

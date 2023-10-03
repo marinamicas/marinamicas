@@ -13,11 +13,3 @@ h2,
 p {
   margin: 0;
 }
-
-body {
-  background: linear-gradient(to left, #c992ffbf 5%, white 95%);
-
-  @media only screen and (max-width: 920px) {
-    background: none;
-  }
-}

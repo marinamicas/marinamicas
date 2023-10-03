@@ -1,7 +1,7 @@
 .layout_content {
     display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 150px auto 148px;
+    grid-template-columns: auto;
+    grid-template-rows: 100px auto 60px;
     grid-template-areas:
         "header"
         "content"
@@ -9,10 +9,6 @@
     ;
     row-gap: 55px;
     margin: 20px;
-
-    @media only screen and (max-width: 678px) {
-        grid-template-rows: auto auto 148px;
-    }
 }
 
 .buttons {

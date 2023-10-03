@@ -1,18 +1,19 @@
 .footer {
-    grid-area: footer;
-    background-image: url(../imagens/imgDecorativa.png);
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    align-items: center;
-    justify-content: end;
-    height: 148px;
-    color: #7f7f7f;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-size: 1.125rem;
+    align-items: end;
+    justify-content: center;
+    color: #000;
+    font-size: 0.875rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5rem;
+    background-color: #FFF;
+    width:100%;
+    text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+    height: 60px;
     padding-bottom: 20px;
+    display: flex;
+    grid-area: footer;
 }

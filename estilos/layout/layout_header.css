@@ -21,9 +21,5 @@
 
 .header {
     grid-area: header;
-    height: 150px;
-
-    @media only screen and (max-width: 678px) {
-        height: max-content;
-    }
+    height: 100px;
 }

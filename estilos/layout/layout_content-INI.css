@@ -1,0 +1,73 @@
+.layout_content-INI {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 45px auto;
+    grid-template-areas:
+        "buttons-INI"
+        "content-INI"
+    ;
+    row-gap: 100px;
+    margin: 20px;
+    height: calc(100vh - 40px);
+    justify-items: center;
+    align-content: start;
+}
+
+.buttons-INI {
+    grid-area: buttons-INI;
+    justify-self: end;
+}
+.content-INI {
+    grid-area: content-INI;
+    align-self: center;
+}
+
+.layout_C_INI {
+    display: grid;
+    grid-template-columns: 203px 407px minmax(auto, 500px);
+    grid-template-areas:
+        "img-C_INI layout_C_text-btn-INI accordions-C_INI"
+    ;
+    column-gap: 40px;
+}
+
+.img-C_INI {
+    grid-area: img-C_INI;
+    height: 203px;
+}
+
+.accordions-C_INI {
+    grid-area: accordions-C_INI;
+    justify-self: start;
+    margin-left: 60px;
+}
+
+.layout_C_text-btn-INI {
+    grid-area: layout_C_text-btn-INI;
+    display: grid;
+    grid-template-columns: 407px;
+    grid-template-rows: max-content 30px;
+    grid-template-areas:
+        "text-C_INI"
+        "buttons-C_INI"
+    ;
+    row-gap: 20px;
+}
+
+.text-C_INI {
+    grid-area: text-C_INI;
+    color: #000;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.buttons-C_INI {
+    grid-area: buttons-C_INI;
+    justify-self: start;
+    align-self: end;
+    display: flex;
+    column-gap: 20px;
+    height: 30px;
+}

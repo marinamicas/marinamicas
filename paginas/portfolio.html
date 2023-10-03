@@ -7,37 +7,33 @@
     <title>Meu portfólio | Marina Micas</title>
     <link rel="stylesheet" href="../estilos/geral.css">
     <link rel="stylesheet" href="../estilos/text.css">
-    <link rel="stylesheet" href="../estilos/layout_header.css">
     <link rel="stylesheet" href="../estilos/headline.css">
     <link rel="stylesheet" href="../estilos/button.css">
-    <link rel="stylesheet" href="../estilos/layout_content.css">
-    <link rel="stylesheet" href="../estilos/layout_project-ART.css">
-    <link rel="stylesheet" href="../estilos/layout_project-DES.css">
-    <link rel="stylesheet" href="../estilos/layout_project-DIV.css">
-    <link rel="stylesheet" href="../estilos/layout_project-PAL.css">
-    <link rel="stylesheet" href="../estilos/layout_project-UXI.css">
-    <link rel="stylesheet" href="../estilos/layout_card.css">
     <link rel="stylesheet" href="../estilos/accordion.css">
     <link rel="stylesheet" href="../estilos/card.css">
     <link rel="stylesheet" href="../estilos/footer.css">
+    <link rel="stylesheet" href="../estilos/layout/layout_content.css">
+    <link rel="stylesheet" href="../estilos/layout/layout_project-ART.css">
+    <link rel="stylesheet" href="../estilos/layout/layout_project-DES.css">
+    <link rel="stylesheet" href="../estilos/layout/layout_project-DIV.css">
+    <link rel="stylesheet" href="../estilos/layout/layout_project-PAL.css">
+    <link rel="stylesheet" href="../estilos/layout/layout_project-UXI.css">
+    <link rel="stylesheet" href="../estilos/layout/layout_card.css">
+    <link rel="stylesheet" href="../estilos/layout/layout_header.css">
   </head>
 
   <body class="layout_content">
     <div class="layout_header header">
       <div class="headline">
-        <img src="../imagens/MarinaMicasJardim.png" alt="Mulher de cabelos curtos com franjas e mechas roxas, usando blusa branca social e sorrindo." style="height: 150px;">
-        <h1>Projetos</h1>
+        <img src="../imagens/MarinaMicasJardim.png" alt="Mulher de cabelos curtos com franjas e mechas roxas, usando blusa branca social e sorrindo." style="height: 100px;">
+        <h1 class="text-C_INI-MA">Projetos</h1>
       </div>
       <div class="buttons">
         <a href="../index.html" class="button">Início</a>
-        <a href="../arquivos/Curriculo_Marina Micas Jardim.pdf" class="button" target="_blank">Currículo (pdf)</a>
       </div>
     </div>
 
-    <div class="content">
-
-      <p style="margin-bottom: 20px;font-size: 1.5rem;">Para visualizar melhor as imagens de cada projeto abaixo, basta clicar sobre elas.</p>
-
+    <div class="content singleSelection">
       <!-- ARTIGOS -->
       <details>
         <summary title="Clique aqui para visualizar conteúdos de artigos">
@@ -1160,8 +1156,9 @@
     </div>
 
     <div class="footer">
-      <a href="https://github.com/marinamicas" target="_blank" class="link--main">Meu GitHub</a>
       <p>Desenvolvido por Marina Micas Jardim © 2023</p>
     </div>
+
+    <script src="../scripts/accordion.js"></script>
   </body>
 </html>

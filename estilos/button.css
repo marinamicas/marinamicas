@@ -1,23 +1,50 @@
 .button {
     display: inline-flex;
     padding: 0.75rem 1.3125rem;
-    gap: 1rem;
-    border: 1px solid #C892FF;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5625rem;
     background-color: #FFF;
+    color: #000;
+    text-align: center;
     font-size: 1.5rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: normal;
     text-decoration: none;
-    color: #000;
     cursor: pointer;
 }
 
 a:hover.button {
-    background-color: #c892ff78;
-    border: 1px solid #c892ff;
+    background-color: #c992ff84;
 }
 
 a:active.button, a:focus.button, a:visited.button {
     color: #000;
+}
+
+.button-C_CV {
+    display: inline-flex;
+    padding: 0.53125rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5625rem;
+    border-radius: 1.25rem;
+    border: 2px solid #9F46F8;
+    background: #000;
+    color: #FFF;
+    text-align: center;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+a:hover.button-C_CV {
+    background-color: #9F46F8;
+}
+
+a:active.button-C_CV, a:focus.button-C_CV, a:visited.button-C_CV {
+    color: #FFF;
 }

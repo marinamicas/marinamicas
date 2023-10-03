@@ -1,0 +1,30 @@
+.layout_COM {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-areas:
+        "category-1 category-2"
+    ;
+    column-gap: 50px;
+    align-content: center;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.category-1 {
+    grid-area: category-1;
+    width: 200px;
+}
+
+.category-2 {
+    grid-area: category-2;
+    width: 200px;
+}
+
+.category_text {
+    color: #6750A4;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 30px 0 5px 0;
+  }
