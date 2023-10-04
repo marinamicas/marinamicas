@@ -1,14 +1,13 @@
 .layout_content-INI {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 45px auto;
+    grid-template-rows: 45px 1fr;
     grid-template-areas:
         "buttons-INI"
         "content-INI"
     ;
     row-gap: 100px;
     margin: 20px;
-    height: calc(100vh - 40px);
     justify-items: center;
     align-content: start;
 

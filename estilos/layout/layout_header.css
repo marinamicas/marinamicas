@@ -1,4 +1,11 @@
 .layout_header {
+    background-color: #FFF;
+    width:100%;
+    text-align: right;
+    position: fixed;
+	top: 0;
+	left: 0;
+    padding: 20px;
     display: grid;
     grid-template-columns: 1fr auto;
     grid-template-rows: 100%;
@@ -9,7 +16,7 @@
 
     @media only screen and (max-width: 600px) {
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(2, auto);
+        grid-template-rows: 46px 60px;
         grid-template-areas:
             "buttons"
             "headline"
@@ -23,6 +30,6 @@
     height: 100px;
 
     @media only screen and (max-width: 600px) {
-        height: 145px;
+        height: 130px;
     }
 }

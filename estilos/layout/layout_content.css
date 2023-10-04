@@ -7,12 +7,11 @@
         "content"
         "footer"
     ;
-    row-gap: 55px;
+    row-gap: 5px;
     margin: 20px;
 
     @media only screen and (max-width: 600px) {
         grid-template-rows: 145px auto 60px;
-        row-gap: 35px;
     }
 }
 
@@ -24,3 +23,11 @@
     }
 }
 .content {grid-area: content;}
+
+.img-portfolio {
+    height: 80px;
+
+    @media only screen and (max-width: 600px) {
+        height: 60px;
+    }
+}
