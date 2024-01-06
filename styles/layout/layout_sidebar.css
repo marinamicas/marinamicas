@@ -1,0 +1,29 @@
+.layout_sidebar {
+    display: grid;
+    grid-template-columns: max-content;
+    grid-template-areas:
+        "link-start link-desenhos link-artigos link-palestras link-diversidades"
+    ;
+    justify-content: left;
+    overflow-x: auto;
+}
+
+.link-start {
+    grid-area: link-start;
+}
+
+.link-desenhos {
+    grid-area: link-desenhos;
+}
+
+.link-artigos {
+    grid-area: link-artigos;
+}
+
+.link-palestras {
+    grid-area: link-palestras;
+}
+
+.link-diversidades {
+    grid-area: link-diversidades;
+}

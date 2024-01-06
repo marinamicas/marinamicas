@@ -29,7 +29,6 @@
             "card-DIV_03 card-DIV_02"
             "card-DIV_01 . "
         ;
-        justify-content: center;
     }
 
     @media only screen and (max-width: 600px) {

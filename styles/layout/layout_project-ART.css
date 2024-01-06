@@ -8,10 +8,6 @@
     column-gap: 20px;
     justify-content: start;
 
-    @media only screen and (max-width: 900px) {
-        justify-content: center;
-    }
-
     @media only screen and (max-width: 600px) {
         grid-template-columns: auto;
         grid-template-rows: repeat(2, auto);

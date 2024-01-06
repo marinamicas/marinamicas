@@ -66,7 +66,6 @@
             "card-DES_03 card-DES_02" 
             "card-DES_01 . "
         ;
-        justify-content: center;
     }
 
     @media only screen and (max-width: 600px) {

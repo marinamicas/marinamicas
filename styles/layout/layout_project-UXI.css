@@ -1,9 +1,9 @@
-.layout_project-PAL {
+.layout_project-UXI {
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: auto;
     grid-template-rows: auto;
     grid-template-areas:
-        "card-PAL_03 card-PAL_02 card-PAL_01"
+        "card-UXI_01 card-UXI_02 card-UXI_03"
     ;
     column-gap: 20px;
     row-gap: 20px;
@@ -13,24 +13,23 @@
         grid-template-columns: repeat(2, auto);
         grid-template-rows: repeat(2, auto);
         grid-template-areas:
-            "card-PAL_03 card-PAL_02"
-            "card-PAL_01 . "
+            "card-UXI_01 card-UXI_02"
+            "card-UXI_03 . "
         ;
-        justify-content: center;
     }
 
     @media only screen and (max-width: 600px) {
         grid-template-columns: auto;
         grid-template-rows: repeat(3, auto);
         grid-template-areas:
-            "card-PAL_03"
-            "card-PAL_02"
-            "card-PAL_01"
+            "card-UXI_01"
+            "card-UXI_02"
+            "card-UXI_03"
         ;
         column-gap: 0;
     }
 }
 
-.card-PAL_01 {grid-area: card-PAL_01;}
-.card-PAL_02 {grid-area: card-PAL_02;}
-.card-PAL_03 {grid-area: card-PAL_03;}
+.card-UXI_01 {grid-area: card-UXI_01;}
+.card-UXI_02 {grid-area: card-UXI_02;}
+.card-UXI_03 {grid-area: card-UXI_03;}

@@ -22,7 +22,10 @@
         justify-self: end;
     }
 }
-.content {grid-area: content;}
+.content {
+    grid-area: content;
+    overflow-x: hidden;
+}
 
 .img-portfolio {
     height: 80px;
