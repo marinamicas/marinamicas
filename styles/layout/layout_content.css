@@ -25,6 +25,7 @@
 .content {
     grid-area: content;
     overflow-x: hidden;
+    margin-top: 35px;
 }
 
 .img-portfolio {

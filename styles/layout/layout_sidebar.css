@@ -1,11 +1,12 @@
 .layout_sidebar {
     display: grid;
-    grid-template-columns: max-content;
+    grid-template-columns: repeat(5, max-content);
     grid-template-areas:
         "link-start link-desenhos link-artigos link-palestras link-diversidades"
     ;
     justify-content: left;
     overflow-x: auto;
+    background-color: white;
 }
 
 .link-start {
@@ -26,4 +27,11 @@
 
 .link-diversidades {
     grid-area: link-diversidades;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    position: absolute;
+    top: 15px;
+    width: 100%;
 }
