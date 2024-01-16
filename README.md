@@ -2,10 +2,8 @@
 <img src="images/titulos/titulo_olaMundo.png" alt="Olá mundo!">
 <p>print("Eu sou a Marina Micas")</p>
 <br><br>
-Acesse meu <a href="https://marinamicas.github.io/marinamicas/" target="_blank">portfólio completo</a> e/ou meu <a href="files/Curriculo_Marina Micas Jardim.pdf" target="_blank">currículo</a>. Abaixo, uma breve amostra.
-<br><br>
-
-<img src="images/Meu portfólio.gif" alt="Amostra do portfólio com: logomarca bhaarat sobre cozinha indiana, vetor de uma fotografia de mulher, letra sobre informática para musicar, processos, tarefas UX etc." style=" width: 45%;"> 
+Acesse meu <a href="https://marinamicas.github.io/marinamicas/" target="_blank">portfólio completo</a> e/ou meu <a href="files/Curriculo_Marina Micas Jardim.pdf" target="_blank">currículo</a>. 
+  
 <br><br>
 
 <img src="images/titulos/titulo_ferramentasQueUso.png" alt="Ferramentas">
