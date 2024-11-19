@@ -55,7 +55,10 @@
 
 .img-C_INI {
     grid-area: img-C_INI;
-    height: 203px;
+    height: 300px;
+    top: -75px;
+    position: relative;
+    left: -35px;
 }
 
 .accordions-C_INI {
