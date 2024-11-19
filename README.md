@@ -2,7 +2,7 @@
 <img src="images/titulos/titulo_olaMundo.png" alt="Olá mundo!">
 <p>print("Eu sou a Marina Micas")</p>
 <br><br>
-Acesse meu <a href="https://marinamicas.github.io/marinamicas/" target="_blank">portfólio completo</a> e/ou meu <a href="files/Curriculo_Marina Micas Jardim.pdf" target="_blank">currículo</a>. 
+Acesse meu <a href="https://marinamicas.github.io/marinamicas/" target="_blank">portfólio completo</a> e/ou meu <a href="files/Curriculo_Marina Micas Jardim.pdf" target="_blank">currículo</a> e também na <a href="files/Curriculo_Marina Micas Jardim-escuro.pdf" target="_blank">versão dark</a> e <a href="files/Curriculo_Marina Micas Jardim - Criativo.pdf" target="_blank">criativo</a>.
   
 <br><br>
 
